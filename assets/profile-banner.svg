@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Rohan Mondal — Full-stack developer</title>
+  <desc id="desc">Dark developer-themed banner with cyan and green accents, a subtle grid, and code-inspired details.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#080d14"/><stop offset="0.55" stop-color="#0c1420"/><stop offset="1" stop-color="#08110f"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#55d8ff"/><stop offset="1" stop-color="#8cf2b4"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#18c9d7" stop-opacity=".20"/><stop offset="1" stop-color="#18c9d7" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#9ab6c9" stroke-opacity=".08" stroke-width="1"/></pattern>
+    <filter id="soft"><feGaussianBlur stdDeviation="30"/></filter>
+  </defs>
+  <rect width="1200" height="340" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="18" fill="url(#grid)"/>
+  <ellipse cx="950" cy="160" rx="300" ry="230" fill="url(#glow)" filter="url(#soft)"/>
+  <path d="M0 285H1200" stroke="#4fe4cd" stroke-opacity=".24"/>
+  <path d="M0 294H310L335 269H430M1200 65H1050L1028 87H978" fill="none" stroke="url(#accent)" stroke-width="1.5" stroke-opacity=".6"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" opacity=".45" fill="#8de8d7" font-size="12">
+    <text x="56" y="47">// build • ship • improve</text>
+    <text x="890" y="48">const creativity = true;</text>
+    <text x="889" y="66">return &lt;Ideas /&gt;;</text>
+    <text x="58" y="315">FULL_STACK / WEB_ENGINEERING</text>
+  </g>
+  <g transform="translate(960 128)" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="M-28 -17L-53 0L-28 17"/><path d="M28 -17L53 0L28 17"/><path d="M11 -28L-8 28"/>
+  </g>
+  <g transform="translate(1070 223)" fill="none" stroke="#5de2c0" stroke-width="1.5" opacity=".5">
+    <rect x="-50" y="-27" width="100" height="54" rx="7"/><path d="M-50 -10H50M-34 -19h4M-22 -19h4"/><path d="M-30 3h20M-30 12h38"/>
+  </g>
+  <g transform="translate(70 100)">
+    <rect x="0" y="0" width="5" height="133" rx="2.5" fill="url(#accent)"/>
+    <text x="28" y="54" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="48" font-weight="750" letter-spacing="-1.6" fill="#f4f8fb">ROHAN <tspan fill="url(#accent)">MONDAL</tspan></text>
+    <text x="30" y="91" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" letter-spacing="4" font-weight="650" fill="#d6e6ed">FULL-STACK DEVELOPER</text>
+    <text x="30" y="122" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#90a8b7">React.js  /  Next.js  /  TypeScript  /  Node.js</text>
+  </g>
+  <g fill="#55d8ff"><circle cx="1109" cy="90" r="3"/><circle cx="1130" cy="90" r="3"/><circle cx="1151" cy="90" r="3"/></g>
+</svg>
